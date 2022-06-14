@@ -1,13 +1,7 @@
-[workspace]
-members = [
-  "rustbin",
-]
+[package]
+name = "rustbin"
+version = "0.0.1"
 
-[workspace.metadata.raze]
-genmode = "Remote"
-package_aliases_dir = "cargo"
-targets = [
-  "x86_64-apple-darwin",
-  "aarch64-apple-darwin",
-]
-workspace_path = "//cargo"
+[[bin]]
+name = "rustbin"
+path = "main.rs"
