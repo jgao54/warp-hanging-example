@@ -1,0 +1,13 @@
+[workspace]
+members = [
+  "rustbin",
+]
+
+[workspace.metadata.raze]
+genmode = "Remote"
+package_aliases_dir = "cargo"
+targets = [
+  "x86_64-apple-darwin",
+  "aarch64-apple-darwin",
+]
+workspace_path = "//cargo"
